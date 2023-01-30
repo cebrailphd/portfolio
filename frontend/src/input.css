@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*@font-face {
+  font-family: "robotoregular";
+  src: url("../static/fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}*/
+:root {
+  --mainBgColor-dark: #131415;
+  --mainTextColor-dark: #fff;
+  --secondaryTextColor-dark: #cbc8d0;
+  --mainTextColor: var(--mainTextColor-dark);
+  --secondaryTextColor: var(--secondaryTextColor-dark);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Readex Pro";
+  color: var(--mainTextColor);
+}
+
+body {
+  background-color: var(--mainBgColor-dark);
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+}
