@@ -1,6 +1,3 @@
-import React from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import gsap from "gsap";
 // import * as THREE from "three";
 // import gsap from "gsap";
 
@@ -101,23 +98,11 @@ import gsap from "gsap";
 //   },
 // });
 
-function Sphere() {
-  return (
-    <mesh>
-      <sphereGeometry args={[1, 64, 64]} />
-      <meshStandardMaterial color="#ffffff" />
-    </mesh>
-  );
-}
-
 function Home() {
   return (
-    <div id="canvas-container">
-      <Canvas>
-        <Sphere />
-        <ambientLight intensity={0.1} />
-      </Canvas>
-    </div>
+    <>
+      <h1>Home</h1>
+    </>
   );
 }
 

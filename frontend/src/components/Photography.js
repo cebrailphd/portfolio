@@ -1,7 +1,7 @@
 import React from "react";
 
 function Photography() {
-  return <section data-aos="fade-in">Photography</section>;
+  return <h1 className="text-5xl">Photography</h1>;
 }
 
 export default Photography;

@@ -4,10 +4,9 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "About", to: "/about", current: true },
+  { name: "About", to: "/about", current: false },
   { name: "Research", to: "/research", current: false },
   { name: "Photography", to: "/photography", current: false },
-  { name: "Contact", to: "/", current: false },
 ];
 
 function classNames(...classes) {
@@ -19,7 +18,7 @@ export default function Nav() {
     <Disclosure as="nav" className="white">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-6">
+          <div className="mx-auto max-w-4xl px-2 sm:px-6 lg:px-6">
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}

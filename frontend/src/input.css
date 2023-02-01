@@ -9,7 +9,7 @@
   font-style: normal;
 }*/
 :root {
-  --mainBgColor-dark: #131415;
+  --mainBgColor-dark: #111010;
   --mainTextColor-dark: #fff;
   --secondaryTextColor-dark: #cbc8d0;
   --mainTextColor: var(--mainTextColor-dark);
